@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: pink;
+/* CONTAINER & PLAYING BOARD */
+
+.container {
+  border: 2px solid green;
+  padding: 10px 66px 10px 66px;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: gray;
+  margin: 15px;
+  padding: 10px;
+}
+
+.flag-img {
+  width: 110px;
+  height: 80px;
 }
