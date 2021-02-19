@@ -42,7 +42,8 @@ Hard - Players will be given 30 seconds to complete the game<br>
 * 3.5 Bootstrap
 * 3.6 Google fonts
 * 3.7 Font Awesome
-* 3.8 Balsamiq
+* 3.8 W3schools
+* 3.9 Balsamiq
 
 ### **4. Testing** ###
 * 4.1 See testing.md document
@@ -75,7 +76,8 @@ Hard - Players will be given 30 seconds to complete the game<br>
 3.5 - [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 4 is the version i used for the development of this project.<br>
 3.6 - [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
 3.7 - [Font Awesome](https://fontawesome.com/) - Font Awesome is a font and icon toolkit based on CSS and Less. It was made by Dave Gandy for use with Bootstrap, and later was incorporated into the BootstrapCDN. Font Awesome has a 38% market share among those websites that use third-party font scripts on their platform.<br>
-3.8 - [Balsamiq](https://balsamiq.com/) - Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.
+3.8 [W3schools](https://www.w3schools.com/) - W3Schools is a training website for learning web technologies online.<br> 
+3.9 - [Balsamiq](https://balsamiq.com/) - Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.
 
 
 
