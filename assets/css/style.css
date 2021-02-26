@@ -79,6 +79,10 @@ transition: transform 0.5s;
   border: 1px solid black;
 }
 
+img {
+  pointer-events: none;
+}
+
 /* FOOTER */
 
 #main-footer {

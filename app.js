@@ -12,7 +12,7 @@
 //   time = 30;
 // }
 
-// GAME MUSIC
+// GAME AUDIO/MUSIC
 class AudioController {
   constructor(){
     this.backgroundMusic = new Audio ("assets/audio/background-music.mp3");
@@ -41,9 +41,7 @@ class AudioController {
   youLose(){
     this.stopMusic();
     this.youLose.play();
-}
-
-
+  }
 }
 
 
