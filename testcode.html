@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here"/>
+<!-- BOOTSTRAP LIBRARY -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- FONT AWESOME LIBRARY -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<!-- EXTERNAL CSS STYLESHEET -->
+  <link rel="stylesheet" href="assets/css/style.css">
+<title>Test Code</title>
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar text-center">
+  <img src="https://flagcdn.com/ie.svg" width="100px" alt="Ireland" class="nav-flag d-none d-md-block">
+  <h1 class="main-title-text text-center text-uppercase m-auto">Test Code</h1>
+  <img src="https://flagcdn.com/ie.svg" width="100px" alt="Ireland" class="nav-flag d-none d-md-block">
+</nav>
+<!-- NEW GAME RESET BUTTON -->
+<div class="row new-game-row">
+<!-- NEW GAME RESET BUTTON -->
+  <div class="col-3 text-right">
+    <span class="new-game">New Game</span><button class="" type="reset" value="reset"><i class="fas fa-sync-alt"></i></button>
+  </div>
+<!-- BLANK CENTER SPACE -->
+  <div class="col-6">
+  </div>
+<!-- DARK/LIGHT MODE SWITCH -->
+  <div class="col-3 text-left">
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customSwitch1">
+      <label class="custom-control-label" for="customSwitch1">Dark/Light Mode</label>
+    </div>
+  </div>
+</div>
+<!-- GAME INFORMATION ROW -->
+<div class="row">
+  <div class="col-12">
+    <div class="game-info text-center">
+      <span class="flips">Flips: 00</span>
+      <span class="score">Matches: 00</span>
+      <span class="time">Time: 00:00s</span>
+    </div>
+  </div>
+</div>
+
+<!-- GAME AREA -->
+<div class="row">
+<!-- BLANK SIDE SPACE -->
+<div class="col-1">
+</div>
+<!-- CONTAINER & PLAYING BOARD -->
+<div class="col-10">
+  <div class="container text-center">
+
+    <button data-turnable="true" data-number="0" class="btn" id="ire1">
+      <img src="https://flagcdn.com/ie.svg" width="100%" alt="Ireland" class="flag-img img-fluid">
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="ire2">
+      <img src="https://flagcdn.com/ie.svg" width="100%" alt="Ireland" class="flag-img img-fluid">
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="aust1">
+      <img src="https://flagcdn.com/at.svg" width="100%" alt="Austria" class="flag-img img-fluid">  
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="aust2">
+      <img src="https://flagcdn.com/at.svg" width="100%" alt="Austria" class="flag-img img-fluid">  
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="bel1">
+      <img src="https://flagcdn.com/be.svg" width="100%" alt="Belgium" class="flag-img img-fluid">  
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="bel2">
+      <img src="https://flagcdn.com/be.svg" width="100%" alt="Belgium" class="flag-img img-fluid">  
+    </button>
+  
+    <button data-turnable="true" data-number="0" class="btn" id="cyp1">
+      <img src="https://flagcdn.com/cy.svg" width="100%" alt="Cyprus" class="flag-img img-fluid">
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="cyp2">
+      <img src="https://flagcdn.com/cy.svg" width="100%" alt="Cyprus" class="flag-img img-fluid">
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="fin1">
+      <img src="https://flagcdn.com/fi.svg" width="100%" alt="Finland" class="flag-img img-fluid">  
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="fin2">
+      <img src="https://flagcdn.com/fi.svg" width="100%" alt="Finland" class="flag-img img-fluid">  
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="fra1">
+      <img src="https://flagcdn.com/fr.svg" width="100%" alt="France" class="flag-img img-fluid">  
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="fra2">
+      <img src="https://flagcdn.com/fr.svg" width="100%" alt="France" class="flag-img img-fluid">  
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="lith1">
+      <img src="https://flagcdn.com/lt.svg" width="100%" alt="Lithuania" class="flag-img img-fluid">  
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="lith2">
+      <img src="https://flagcdn.com/lt.svg" width="100%" alt="Lithuania" class="flag-img img-fluid">  
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="lux1">
+      <img src="https://flagcdn.com/lu.svg" width="100%" alt="Luxembourg" class="flag-img img-fluid">  
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="lux2">
+      <img src="https://flagcdn.com/lu.svg" width="100%" alt="Luxembourg" class="flag-img img-fluid">  
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="port1">
+      <img src="https://flagcdn.com/pt.svg" width="100%" alt="Portugal" class="flag-img img-fluid">  
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="port2">
+      <img src="https://flagcdn.com/pt.svg" width="100%" alt="Portugal" class="flag-img img-fluid">  
+    </button>
+
+    <button data-turnable="true" data-number="0" class="btn" id="esp1">
+      <img src="https://flagcdn.com/es.svg" width="100%" alt="Spain" class="flag-img img-fluid">  
+    </button>
+    <button data-turnable="true" data-number="0" class="btn" id="esp2">
+      <img src="https://flagcdn.com/es.svg" width="100%" alt="Spain" class="flag-img img-fluid">  
+    </button>
+
+    </div>
+  </div>
+</div>
+<!-- FOOTER -->
+<div class="row">
+
+  <div id="main-footer" class="col-12 text-center">
+    <p class="main-footer-text">Copyright © 2021 Stephen Mc Govern | All rights reserved</p>
+  </div>
+
+</div>
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

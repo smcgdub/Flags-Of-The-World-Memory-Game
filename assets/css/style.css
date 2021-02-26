@@ -12,7 +12,7 @@
 /* NAV BAR */
 
 .navbar {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .nav-flag {
@@ -84,4 +84,14 @@ transition: transform 0.5s;
 #main-footer {
   /* padding: 20px; */
   font-size: 25px;
+}
+
+/* DARK MODE */
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+  btn-border: 1px solid #ffffff; 
+
+
 }
