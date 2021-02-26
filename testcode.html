@@ -10,15 +10,15 @@
 <!-- FONT AWESOME LIBRARY -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
 <!-- EXTERNAL CSS STYLESHEET -->
-  <link rel="stylesheet" href="assets/css/style.css">
-<title>Test Code</title>
+  <link rel="stylesheet" href="style2.css">
+<title>Flags Of The World</title>
 </head>
 
 <body>
 <!-- NAVBAR -->
-<nav class="navbar text-center">
+<nav class="navbar text-center border-bottom">
   <img src="https://flagcdn.com/ie.svg" width="100px" alt="Ireland" class="nav-flag d-none d-md-block">
-  <h1 class="main-title-text text-center text-uppercase m-auto">Test Code</h1>
+  <h1 class="main-title-text text-center text-uppercase m-auto">Flags Of The World</h1>
   <img src="https://flagcdn.com/ie.svg" width="100px" alt="Ireland" class="nav-flag d-none d-md-block">
 </nav>
 <!-- NEW GAME RESET BUTTON -->
@@ -34,7 +34,7 @@
   <div class="col-3 text-left">
     <div class="custom-control custom-switch">
       <input type="checkbox" class="custom-control-input" id="customSwitch1">
-      <label class="custom-control-label" for="customSwitch1">Dark/Light Mode</label>
+      <label class="custom-control-label" for="customSwitch1" onclick="darkMode()">Dark/Light Mode</label>
     </div>
   </div>
 </div>
@@ -58,76 +58,95 @@
 <div class="col-10">
   <div class="container text-center">
 
-    <button data-turnable="true" data-number="0" class="btn" id="ire1">
-      <img src="https://flagcdn.com/ie.svg" width="100%" alt="Ireland" class="flag-img img-fluid">
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="ire2">
-      <img src="https://flagcdn.com/ie.svg" width="100%" alt="Ireland" class="flag-img img-fluid">
-    </button>
+    <div>
+      <img src="https://flagcdn.com/ie.svg" width="100%" alt="Ireland" class="card-front flag-img img-fluid">
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/ie.svg" width="100%" alt="Ireland" class="card-front flag-img img-fluid">
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="aust1">
-      <img src="https://flagcdn.com/at.svg" width="100%" alt="Austria" class="flag-img img-fluid">  
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="aust2">
-      <img src="https://flagcdn.com/at.svg" width="100%" alt="Austria" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/at.svg" width="100%" alt="Austria" class="card-front flag-img img-fluid">
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/at.svg" width="100%" alt="Austria" class="card-front flag-img img-fluid">
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="bel1">
-      <img src="https://flagcdn.com/be.svg" width="100%" alt="Belgium" class="flag-img img-fluid">  
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="bel2">
-      <img src="https://flagcdn.com/be.svg" width="100%" alt="Belgium" class="flag-img img-fluid">  
-    </button>
-  
-    <button data-turnable="true" data-number="0" class="btn" id="cyp1">
-      <img src="https://flagcdn.com/cy.svg" width="100%" alt="Cyprus" class="flag-img img-fluid">
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="cyp2">
-      <img src="https://flagcdn.com/cy.svg" width="100%" alt="Cyprus" class="flag-img img-fluid">
-    </button>
+    <div>
+      <img src="https://flagcdn.com/be.svg" width="100%" alt="Belgium" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/be.svg" width="100%" alt="Belgium" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="fin1">
-      <img src="https://flagcdn.com/fi.svg" width="100%" alt="Finland" class="flag-img img-fluid">  
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="fin2">
-      <img src="https://flagcdn.com/fi.svg" width="100%" alt="Finland" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/cy.svg" width="100%" alt="Cyprus" class="card-front flag-img img-fluid">
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/cy.svg" width="100%" alt="Cyprus" class="card-front flag-img img-fluid">
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="fra1">
-      <img src="https://flagcdn.com/fr.svg" width="100%" alt="France" class="flag-img img-fluid">  
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="fra2">
-      <img src="https://flagcdn.com/fr.svg" width="100%" alt="France" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/fi.svg" width="100%" alt="Finland" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/fi.svg" width="100%" alt="Finland" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="lith1">
-      <img src="https://flagcdn.com/lt.svg" width="100%" alt="Lithuania" class="flag-img img-fluid">  
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="lith2">
-      <img src="https://flagcdn.com/lt.svg" width="100%" alt="Lithuania" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/fr.svg" width="100%" alt="France" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/fr.svg" width="100%" alt="France" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="lux1">
-      <img src="https://flagcdn.com/lu.svg" width="100%" alt="Luxembourg" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/lt.svg" width="100%" alt="Lithuania" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/lt.svg" width="100%" alt="Lithuania" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="lux2">
-      <img src="https://flagcdn.com/lu.svg" width="100%" alt="Luxembourg" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/lu.svg" width="100%" alt="Luxembourg" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/lu.svg" width="100%" alt="Luxembourg" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="port1">
-      <img src="https://flagcdn.com/pt.svg" width="100%" alt="Portugal" class="flag-img img-fluid">  
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="port2">
-      <img src="https://flagcdn.com/pt.svg" width="100%" alt="Portugal" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/pt.svg" width="100%" alt="Portugal" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/pt.svg" width="100%" alt="Portugal" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
-    <button data-turnable="true" data-number="0" class="btn" id="esp1">
-      <img src="https://flagcdn.com/es.svg" width="100%" alt="Spain" class="flag-img img-fluid">  
-    </button>
-    <button data-turnable="true" data-number="0" class="btn" id="esp2">
-      <img src="https://flagcdn.com/es.svg" width="100%" alt="Spain" class="flag-img img-fluid">  
-    </button>
+    <div>
+      <img src="https://flagcdn.com/es.svg" width="100%" alt="Spain" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
+    <div>
+      <img src="https://flagcdn.com/es.svg" width="100%" alt="Spain" class="card-front flag-img img-fluid">  
+      <img src="https://flagcdn.com/aq.svg" width="100%" alt="Antarctica" class="card-back flag-img img-fluid">
+    </div>
 
     </div>
   </div>

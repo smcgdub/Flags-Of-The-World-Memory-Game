@@ -9,6 +9,14 @@
   font-family: 'Give You Glory', cursive;
 }
 
+img {
+  width: 100px;
+}
+
+
+
+
+
 /* NAV BAR */
 
 /* .navbar {
@@ -19,55 +27,56 @@
   border-radius: 5px;
 }
 
-.main-title-text {
+/* .main-title-text {
   margin-bottom: 0px;
   padding-top: 7px;
-  /* border: 2px solid black; */
-}
+  border: 2px solid black;
+} */
 
 /* NEW GAME ROW */
 
-.new-game-row {
+/* .new-game-row {
   margin-bottom: 10px;
   margin-top: 10px;
-  /* border: 3px solid pink; */
-}
+  border: 3px solid pink;
+} */
 
-.new-game {
+/* .new-game {
   font-size: 26px;
-}
+} */
 
-.custom-control-label {
+/* .custom-control-label {
   font-size: 26px;
-}
+} */
 
-.score {
+/* .score {
   margin: 0px 25px 0px 25px;
-}
+} */
+
 /* GAME INFORMATION ROW */
 
-.game-info {
-  /* margin-bottom: 5px; */
-  /* border: 4px solid red; */
+/* .game-info {
+  margin-bottom: 5px;
+  border: 4px solid red;
   font-size: 25px;
-}
+} */
 
 /* CONTAINER & PLAYING BOARD */
 
-.container {
-  /* border: 5px solid black; */
+/* .container {
+  border: 5px solid black;
   padding: 0px 66px 10px 66px;
-}
+} */
 
-.btn {
+/* .btn {
   border: 2px solid black;
-  /* background-color: gray; */
+  background-color: gray;
   margin: 15px;
   padding: 10px;
   border-radius: 10px;
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
 transform: rotateY(20deg);
 transition: transform 0.5s;
 }
@@ -77,14 +86,14 @@ transition: transform 0.5s;
   height: 80px;
   border-radius: 5px;
   border: 1px solid black;
-}
+} */
 
 /* FOOTER */
 
-#main-footer {
-  /* padding: 20px; */
+/* #main-footer {
+  padding: 20px;
   font-size: 25px;
-}
+} */
 
 /* DARK MODE */
 
